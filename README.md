@@ -1,110 +1,106 @@
-# Nale Thottu Padikkam 🎯
+<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-> The productivity app that helps you start tomorrow.
+
+
+# Nale Thottu 🎯
+
 
 ## Basic Details
+### Team Name: DOSA
 
-### Team Name: [Add your team name]
 
 ### Team Members
-
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Don Aju - Vimal Jyothi Engineering College
+- Member 2: Athul Sathian K - Vimal Jyothi Engineering College
 
 ### Project Description
-
-**Nale Thottu Padikkam** is a polished, deliberately useless study-planning web app for chronic procrastinators. It creates detailed study plans, then lovingly helps students postpone them until tomorrow.
+Nale Thottu Padikkam is a polished but deliberately useless study-planning app for chronic procrastinators. It creates study plans, tracks tasks, and then enthusiastically helps users postpone everything until tomorrow.
 
 ### The Problem (that doesn't exist)
-
-Students have too many boring productivity tools encouraging them to study today. What they really need is a premium platform that validates their deeply held belief that tomorrow will be better.
+Students are under too much pressure to study today. Existing productivity apps keep reminding them about deadlines instead of respecting their belief that tomorrow will be a much better day.
 
 ### The Solution (that nobody asked for)
-
-Our app creates study plans, tracks procrastination streaks, celebrates postponed tasks, invents professional excuses, and even restarts a focus timer before it can finish. It makes achieving absolutely nothing feel like a serious SaaS experience.
+Our app creates a serious-looking study schedule, rewards procrastination streaks, generates excuses, tracks postponed tasks, and even extends the focus timer before users can finish. It makes achieving absolutely nothing feel premium.
 
 ## Technical Details
-
 ### Technologies/Components Used
-
 For Software:
 
-- TypeScript, CSS
-- Next.js (App Router), React
-- Lucide React icons
-- Browser localStorage for persistence
-- npm, Vercel-ready deployment setup
+- Languages: TypeScript, CSS
+- Frameworks: Next.js, React
+- Libraries: Lucide React
+- Tools: npm, localStorage, Vercel
+
+For Hardware:
+
+- No hardware required.
 
 ### Implementation
-
-#### Installation
-
+For Software:
+# Installation
 ```powershell
 npm.cmd install
-```
 
-#### Run locally
-
-```powershell
+# Run
 npm.cmd run dev -- -p 3010
+
+### Project Documentation
+For Software:
+
+# Screenshots (Add at least 3)
+[![Screenshot1](Add screenshot 1 here with proper name)](https://drive.google.com/file/d/1Dxg2kcD_y-y-BoUX0xC94808YbG5HIiY/view?usp=drive_link)
+Project Dashboard
+
+# Diagrams
+```mermaid
+flowchart TD
+    A[Landing Page] --> B[Plan My Tomorrow]
+    B --> C[Student Onboarding]
+
+    C --> C1[Enter Name]
+    C --> C2[Add Subjects]
+    C --> C3[Select Exam Date]
+    C --> C4[Set Study Hours]
+    C --> D[Generate Study Plan]
+
+    D --> E[Dashboard]
+
+    E --> F[Today's Tasks]
+    F --> G{Start Studying?}
+
+    G -->|Yes| H[Funny Focus Timer]
+    H --> I{Timer auto-extends}
+    I --> J[Task Completed]
+    I --> K[Maybe Tomorrow]
+
+    G -->|Maybe Tomorrow| K
+    K --> L[Task Postponed]
+    L --> M[Streak Increases]
+    M --> N[Tomorrow Counter Updates]
+
+    E --> O[Analytics]
+    E --> P[Achievements]
+    E --> Q[Notifications]
+    E --> R[30-Day Simulation]
+
+    R --> S[30 Days Pass]
+    S --> T[Tasks Keep Moving Tomorrow]
+    T --> U[Congratulations: Absolutely Nothing Achieved]
+
+    E --> V[(localStorage)]
+    V --> E
 ```
 
-Open `http://localhost:3010` in a browser.
-
-### Features
-
-- Multi-step study-plan onboarding
-- Automatic postponement and persistent procrastination streaks
-- Funny analytics, achievements, notifications, and exam countdown
-- Dramatic focus timer with 1-, 3-, and 5-minute modes that auto-extends itself
-- 30-day simulation mode for the hackathon demo
-- Responsive dark SaaS-style interface
-
-## Project Documentation
-
-### Screenshots
-
-> Add images to a `docs/screenshots/` folder, then replace the placeholders below.
-
-![Landing page](docs/screenshots/landing-page.png)
-*Landing page — a suspiciously serious productivity startup.*
-
-![Dashboard](docs/screenshots/dashboard.png)
-*Dashboard — where tomorrow is always the productivity forecast.*
-
-![Timer](docs/screenshots/timer.png)
-*Focus timer — it may extend itself before you can finish.*
-
-### Workflow
-
-```text
-Landing page → Create plan → Dashboard → Postpone tasks → Build streak → Simulate 30 days
-```
-
-## Project Demo
-
-### Video Submission
-
-**Demo video link:** [Add your YouTube / Google Drive / Instagram video link here](YOUR_VIDEO_LINK)
-
-*The video should show onboarding, postponing a task, the dashboard analytics, and the 30-day simulation finale.*
-
-### Photo Submission
-
-**Submission photos:** [Add your photo album / Drive folder link here](YOUR_PHOTO_LINK)
-
-*Add your team photo, presentation photo, and screenshots here.*
 
 ## Team Contributions
-
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Don Aju
+- Athul Sathian K
 
 ---
-
-Made with ❤️ at TinkerHub Useless Projects
+Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
+
+
+
