@@ -1,103 +1,110 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+# Nale Thottu Padikkam 🎯
 
-
-
-# [Project Name] 🎯
-
+> The productivity app that helps you start tomorrow.
 
 ## Basic Details
-### Team Name: [Name]
 
+### Team Name: [Add your team name]
 
 ### Team Members
+
 - Team Lead: [Name] - [College]
 - Member 2: [Name] - [College]
 - Member 3: [Name] - [College]
 
 ### Project Description
-[2-3 lines about what your project does]
+
+**Nale Thottu Padikkam** is a polished, deliberately useless study-planning web app for chronic procrastinators. It creates detailed study plans, then lovingly helps students postpone them until tomorrow.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+Students have too many boring productivity tools encouraging them to study today. What they really need is a premium platform that validates their deeply held belief that tomorrow will be better.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+Our app creates study plans, tracks procrastination streaks, celebrates postponed tasks, invents professional excuses, and even restarts a focus timer before it can finish. It makes achieving absolutely nothing feel like a serious SaaS experience.
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+### Technologies/Components Used
+
+For Software:
+
+- TypeScript, CSS
+- Next.js (App Router), React
+- Lucide React icons
+- Browser localStorage for persistence
+- npm, Vercel-ready deployment setup
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+#### Installation
 
-### Project Documentation
-For Software:
+```powershell
+npm.cmd install
+```
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+#### Run locally
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+```powershell
+npm.cmd run dev -- -p 3010
+```
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Open `http://localhost:3010` in a browser.
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+### Features
 
-For Hardware:
+- Multi-step study-plan onboarding
+- Automatic postponement and persistent procrastination streaks
+- Funny analytics, achievements, notifications, and exam countdown
+- Dramatic focus timer with 1-, 3-, and 5-minute modes that auto-extends itself
+- 30-day simulation mode for the hackathon demo
+- Responsive dark SaaS-style interface
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+## Project Documentation
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+### Screenshots
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+> Add images to a `docs/screenshots/` folder, then replace the placeholders below.
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![Landing page](docs/screenshots/landing-page.png)
+*Landing page — a suspiciously serious productivity startup.*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![Dashboard](docs/screenshots/dashboard.png)
+*Dashboard — where tomorrow is always the productivity forecast.*
 
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+![Timer](docs/screenshots/timer.png)
+*Focus timer — it may extend itself before you can finish.*
 
-# Additional Demos
-[Add any extra demo materials/links]
+### Workflow
+
+```text
+Landing page → Create plan → Dashboard → Postpone tasks → Build streak → Simulate 30 days
+```
+
+## Project Demo
+
+### Video Submission
+
+**Demo video link:** [Add your YouTube / Google Drive / Instagram video link here](YOUR_VIDEO_LINK)
+
+*The video should show onboarding, postponing a task, the dashboard analytics, and the 30-day simulation finale.*
+
+### Photo Submission
+
+**Submission photos:** [Add your photo album / Drive folder link here](YOUR_PHOTO_LINK)
+
+*Add your team photo, presentation photo, and screenshots here.*
 
 ## Team Contributions
+
 - [Name 1]: [Specific contributions]
 - [Name 2]: [Specific contributions]
 - [Name 3]: [Specific contributions]
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+
+Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2Fuseless-projects-3.0)
-
-
-
+![Static Badge](https://img.shields.io/badge/UselessProjects--26-26?link=https%3A%2F%2Ftinkerhub.org%2Fevents%2F1M8ORET9A1%2F)
