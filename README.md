@@ -57,38 +57,31 @@ flowchart TD
     A[Landing Page] --> B[Plan My Tomorrow]
     B --> C[Student Onboarding]
 
-    C --> C1[Enter Name]
-    C --> C2[Add Subjects]
-    C --> C3[Select Exam Date]
-    C --> C4[Set Study Hours]
-    C --> D[Generate Study Plan]
+    C --> D[Enter Name, Subjects, Exam Date and Study Hours]
+    D --> E[Generate Study Plan]
+    E --> F[Dashboard]
 
-    D --> E[Dashboard]
+    F --> G[Today's Tasks]
+    G --> H{Start Studying?}
 
-    E --> F[Today's Tasks]
-    F --> G{Start Studying?}
+    H -->|Yes| I[Funny Focus Timer]
+    I --> J[Timer Auto-Extends]
+    J --> K[Task Completed]
 
-    G -->|Yes| H[Funny Focus Timer]
-    H --> I{Timer auto-extends}
-    I --> J[Task Completed]
-    I --> K[Maybe Tomorrow]
-
-    G -->|Maybe Tomorrow| K
-    K --> L[Task Postponed]
-    L --> M[Streak Increases]
+    H -->|Maybe Tomorrow| L[Task Postponed]
+    L --> M[Procrastination Streak Increases]
     M --> N[Tomorrow Counter Updates]
 
-    E --> O[Analytics]
-    E --> P[Achievements]
-    E --> Q[Notifications]
-    E --> R[30-Day Simulation]
+    F --> O[Analytics]
+    F --> P[Achievements]
+    F --> Q[Notifications]
+    F --> R[30-Day Simulation]
 
-    R --> S[30 Days Pass]
-    S --> T[Tasks Keep Moving Tomorrow]
-    T --> U[Congratulations: Absolutely Nothing Achieved]
+    R --> S[Tasks Move to Tomorrow]
+    S --> T[Congratulations: Absolutely Nothing Achieved]
 
-    E --> V[(localStorage)]
-    V --> E
+    F --> U[(localStorage Persistence)]
+```
 ```
 
 
